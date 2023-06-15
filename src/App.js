@@ -7,7 +7,9 @@ function App() {
       <nav class="navbar background">
         <ul class="nav-list">
           <div class="logo">
-            <img src={require}></img>
+            <img
+              src={require(she_chats_tech / src / images / SheChatsTech.png)}
+            ></img>
           </div>
         </ul>
       </nav>
