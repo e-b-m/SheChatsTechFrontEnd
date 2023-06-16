@@ -4,8 +4,8 @@ import "../fonts/Calistoga-Regular.ttf";
 const About = () => {
   return (
     <div>
-      <h1 className="heading">About She Chats Tech</h1>
-      <p class="paragraph">
+      <h1>About She Chats Tech</h1>
+      <p className="paragraph">
         Welcome She Chats Tech is an educational and social platform that aims
         to inspire and motivate women in their tech journeys. With an emphasis
         on in-person connection She Chats Tech was created to provide a safe
