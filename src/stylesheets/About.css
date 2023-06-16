@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Arsenal-Regular';
+    src: url(src/fonts/Arsenal-Regular.ttf) format('truetype');
+}
+
+.heading {
+text-align: center;
+}

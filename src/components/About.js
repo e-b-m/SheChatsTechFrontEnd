@@ -1,7 +1,9 @@
+import "../fonts/Arsenal-Regular.ttf";
+
 const About = () => {
   return (
     <div>
-      <h1>About She Chats Tech</h1>
+      <h1 className="heading">About She Chats Tech</h1>
       <p>
         Welcome She Chats Tech is an educational and social platform that aims
         to inspire and motivate women in their tech journeys. With an emphasis
