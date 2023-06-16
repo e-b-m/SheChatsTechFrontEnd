@@ -3,6 +3,17 @@
     src: url(src/fonts/Arsenal-Regular.ttf) format('truetype');
 }
 
+@font-face {
+    font-family: 'Calistoga-Regular';
+    src: url(src/fonts/Calistoga-Regular.ttf) format('truetype');
+}
+
 .heading {
 text-align: center;
+font-family: 'Calistoga-Regular';
+}
+
+.paragraph {
+font-family: 'Arsenal-Regular';
+
 }
