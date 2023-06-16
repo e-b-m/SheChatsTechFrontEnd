@@ -1,6 +1,4 @@
-import About from "react";
-
-export const About = () => {
+const About = () => {
   return (
     <div>
       <h1>About She Chats Tech</h1>
