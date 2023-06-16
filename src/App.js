@@ -1,19 +1,12 @@
-import logo from "./logo.svg";
+import Logo from "./components/Logo";
 import "./App.css";
-import SheChatsTech from "/Users/emma/Documents/she_chats_tech/src/images/She Chats Tech.png";
 
 function App() {
   return (
     <div className="App">
+      <Logo />
       <nav class="navbar background">
-        <ul class="nav-list">
-          <div class="logo">
-            <img
-              src={require("/Users/emma/Documents/she_chats_tech/src/images/She Chats Tech.png")}
-              alt="She Chats Tech"
-            ></img>
-          </div>
-        </ul>
+        <ul class="nav-list"></ul>
       </nav>
     </div>
   );
