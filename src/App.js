@@ -8,6 +8,7 @@ import Contact from "./components/Contact";
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import NavBar from "./components/NavBar";
+import Carousel from "./components/Carousel";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/faqs" element={<Faqs />} />
         </Routes>
+        <Carousel />
       </BrowserRouter>
       <Footer />
     </div>
