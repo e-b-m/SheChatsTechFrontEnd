@@ -25,14 +25,34 @@ ul {
 li {
   display: inline-block;
   margin-right: 10px;
-  padding: -5%;
+  padding: -10%;
+  display: inline-block;
+  padding: 5px 5px;
+  /* background-color: #fff; */
+  color: #877eefbc;
+  text-decoration: none;
+  border-radius: 80px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+}
 
+li:hover {
+    background-color: #877eefbc;
+    color: #7367efbc;
+}
+
+#nav-bar{
+  color: #fff;
+  padding: -4%;
 }
 
 
 #nav-list {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  
+  display: flex;
+  justify-content: space-between;
+  padding: -5%;
 }
 
 /* ABOUT PAGE STYLING */

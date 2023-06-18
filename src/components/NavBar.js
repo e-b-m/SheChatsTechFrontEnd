@@ -3,7 +3,7 @@ import Logo from "./Logo";
 
 const NavBar = () => {
   return (
-    <nav>
+    <nav id="nav-bar">
       <ul id="nav-list">
         <li>
           <Link to="/">
