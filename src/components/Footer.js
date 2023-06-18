@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <div>
-      <ul>
+      <ul id="footer-elements">
         <li>Contact</li>
         <li>About</li>
         <li>FAQs</li>

@@ -7,10 +7,6 @@ body {
   background-color: #C6C1FF;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
 
 Logo{
   margin: 0;
@@ -26,5 +22,27 @@ ul {
 li {
   display: inline-block;
   margin-right: 10px;
+
+}
+
+#heading {
+  text-align: center; 
+
+}
+
+#welcome-statement {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  /* max-width: 600px;  */
+  text-align: center; 
+}
+
+
+#footer-elements {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+#nav-list {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }

@@ -4,7 +4,7 @@ import Logo from "./Logo";
 const NavBar = () => {
   return (
     <nav>
-      <ul className="nav-list">
+      <ul id="nav-list">
         <li>
           <Link to="/">
             <Logo />
