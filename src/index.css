@@ -46,3 +46,13 @@ li {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
+
+#founder-picture {
+  align-items: center;
+}
+
+#founder-picture img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
