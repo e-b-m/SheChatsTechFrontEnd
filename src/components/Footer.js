@@ -1,12 +1,12 @@
 const Footer = () => {
   return (
-    <div>
+    <footer>
       <ul id="footer-elements">
-        <li>Contact</li>
+        <li>Contact </li>
         <li>About</li>
         <li>FAQs</li>
       </ul>
-    </div>
+    </footer>
   );
 };
 

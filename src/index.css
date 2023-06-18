@@ -69,3 +69,7 @@ li {
   text-align: center;
 }
 
+#about-em {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 5%;
+}
