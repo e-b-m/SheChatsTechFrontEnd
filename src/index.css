@@ -7,6 +7,7 @@ body {
   background-color: #C6C1FF;
 }
 
+/* NAV BAR STYLING */
 
 Logo{
   margin: 0;
@@ -28,26 +29,25 @@ li {
 
 }
 
+
+#nav-list {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+
+/* ABOUT PAGE STYLING */
+
 #heading {
   text-align: center; 
 
 }
-
 #welcome-statement {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   /* max-width: 600px;  */
   text-align: center; 
 }
 
-#footer-elements {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
-}
-
-#nav-list {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  
-}
+/* PEOPLE STYLING */
 
 #founder-picture {
   display: flex;
@@ -64,7 +64,6 @@ li {
   padding: 0;
   position: relative
   
-  
 }
 
 #founder {
@@ -79,4 +78,28 @@ li {
   padding: 3%;
   background-color: #a69ff1;
   border-radius: 10px;
+}
+
+/* FOOTER STYLING */
+
+#footer-elements {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+#footer-elements li {
+  margin: 0 10px;
+
+}
+
+.footer-elements li a {
+  text-decoration: none;
+  color: rgb(175, 115, 248);
+}
+
+.footer-elements li a:hover {
+  text-decoration: underline;
 }

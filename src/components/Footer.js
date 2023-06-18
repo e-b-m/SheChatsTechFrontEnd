@@ -5,7 +5,7 @@ const Footer = () => {
         {/* <li>Contact </li>
         <li>About</li>
         <li>FAQs</li> */}
-
+        {/* </ul> */}
         <li>
           <a href="#">Contact</a>
         </li>
@@ -16,7 +16,6 @@ const Footer = () => {
           <a href="#">FAQs</a>
         </li>
       </ul>
-      {/* </ul> */}
     </footer>
   );
 };
