@@ -17,6 +17,7 @@ Logo{
 
 ul {
   list-style-type: none;
+  background-color: #a69ff1;
 }
 
 li {
@@ -43,16 +44,15 @@ li {
 
 #nav-list {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
+  
 }
 
 #founder-picture {
   display: flex;
   justify-content: center;
   place-items: center;
-  height: 100vh;
   margin: 0;
-  padding: 0;
+  padding: -30%; 
 }
 
 #founder-picture img {
@@ -71,5 +71,6 @@ li {
 
 #about-em {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  padding: 5%;
+  padding: 3%;
+  background-color: #a69ff1
 }
