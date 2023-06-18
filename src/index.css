@@ -46,17 +46,21 @@ li {
 }
 
 #founder-picture {
-  align-items: center;
-
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  height: 100vh;
 }
 
 #founder-picture img {
   width: 200px;
   height: 200px;
   
+  
 }
 
 #founder {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
 }
 
