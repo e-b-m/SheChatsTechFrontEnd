@@ -18,11 +18,13 @@ Logo{
 ul {
   list-style-type: none;
   background-color: #a69ff1;
+  border-radius: 10px;
 }
 
 li {
   display: inline-block;
   margin-right: 10px;
+  padding: -5%;
 
 }
 
@@ -60,6 +62,7 @@ li {
   height: 200px;
   margin: 0;
   padding: 0;
+  position: relative
   
   
 }
@@ -67,10 +70,13 @@ li {
 #founder {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-align: center;
+  font-size: 30;
+    /*need to figure out how to get the heading to go above the text  */
 }
 
 #about-em {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   padding: 3%;
-  background-color: #a69ff1
+  background-color: #a69ff1;
+  border-radius: 10px;
 }
