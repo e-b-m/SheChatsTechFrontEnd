@@ -7,7 +7,6 @@ body {
   background-color: #C6C1FF;
 }
 
-
 Logo{
   margin: 0;
   width: 30px;
@@ -36,7 +35,6 @@ li {
   text-align: center; 
 }
 
-
 #footer-elements {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
@@ -49,10 +47,16 @@ li {
 
 #founder-picture {
   align-items: center;
+
 }
 
 #founder-picture img {
-  width: 80px;
-  height: 80px;
-  object-fit: cover;
+  width: 200px;
+  height: 200px;
+  
 }
+
+#founder {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
