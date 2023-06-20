@@ -18,7 +18,7 @@ function App() {
       <BrowserRouter>
         <NavBar />
         <Routes>
-          <Route exact path="/" element={<Logo />} />
+          <Route exact path="/" />
           <Route path="/about" element={<About />} />
           <Route path="/events" element={<Events />} />
           <Route path="/people" element={<People />} />
@@ -27,7 +27,6 @@ function App() {
           <Route path="/faqs" element={<Faqs />} />
         </Routes>
         <HomePage />
-        {/* <MyCarousel /> */}
       </BrowserRouter>
       <Footer />
     </div>
