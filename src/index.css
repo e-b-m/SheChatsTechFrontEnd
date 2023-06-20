@@ -13,6 +13,7 @@ body {
   /* position: absolute; */
   position:relative; 
   align-content: center;
+  background-color: #a490f3;
 }
 
 /* NAV BAR STYLING */
@@ -79,8 +80,9 @@ li:hover {
 
 #heading {
   text-align: center; 
-
-
+  background-color: #877eefbc;
+  border-radius: 10%;
+  margin: auto; 
 }
 #welcome-statement {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -88,6 +90,8 @@ li:hover {
   text-align: center; 
   padding-left: 10%;
   padding-right: 10%;
+
+
 }
 
 /* PEOPLE STYLING */
