@@ -86,6 +86,8 @@ li:hover {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   /* max-width: 600px;  */
   text-align: center; 
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 /* PEOPLE STYLING */
@@ -95,8 +97,8 @@ li:hover {
   justify-content: center;
   place-items: center;
   margin: 0;
-  padding: 10%; 
-  position: relative
+  padding: 3%; 
+  position: relative; 
 }
 
 #founder-picture img {
