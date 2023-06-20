@@ -1,3 +1,4 @@
+import "bootstrap/dist/css/bootstrap.css";
 import Logo from "./components/Logo";
 import Footer from "./components/Footer";
 import About from "./components/About";
@@ -8,7 +9,7 @@ import Contact from "./components/Contact";
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import NavBar from "./components/NavBar";
-import Carousel from "./components/Carousel";
+import MyCarousel from "./components/MyCarousel";
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/faqs" element={<Faqs />} />
         </Routes>
-        <Carousel />
+        <MyCarousel />
       </BrowserRouter>
       <Footer />
     </div>
