@@ -10,7 +10,6 @@ import Contact from "./components/Contact";
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import NavBar from "./components/NavBar";
-import MyCarousel from "./components/MyCarousel";
 
 function App() {
   return (

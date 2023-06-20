@@ -25,10 +25,12 @@ Logo{
 }
 
 ul {
-  list-style-type: none;
+  list-style-type:none; 
   background-color: #a69ff1;
   border-radius: 10px;
   margin-top: 2%;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 #logo {
@@ -78,6 +80,7 @@ li:hover {
 #heading {
   text-align: center; 
 
+
 }
 #welcome-statement {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -92,22 +95,25 @@ li:hover {
   justify-content: center;
   place-items: center;
   margin: 0;
-  padding: -30%; 
+  padding: 10%; 
+  position: relative
 }
 
 #founder-picture img {
   width: 200px;
   height: 200px;
   margin: 0;
-  padding: 0;
   position: relative
-  
+   
 }
 
 #founder {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-align: center;
   font-size: 30;
+  position: absolute;
+  top: 0; 
+  
     /*need to figure out how to get the heading to go above the text  */
 }
 
