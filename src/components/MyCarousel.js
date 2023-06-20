@@ -7,21 +7,21 @@ const MyCarousel = () => {
     <Carousel>
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="mx-auto d-block w-50"
           src={require("/Users/emma/Documents/she_chats_tech/src/images/carousel-1.png")}
           alt="Image 1"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className=" mx-auto d-block w-50"
           src={require("/Users/emma/Documents/she_chats_tech/src/images/carousel-2.png")}
           alt="Image 2"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="mx-auto d-block w-50"
           src={require("/Users/emma/Documents/she_chats_tech/src/images/carousel-3.png")}
           alt="Image 3"
         />
