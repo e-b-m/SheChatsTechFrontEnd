@@ -1,4 +1,5 @@
 import "bootstrap/dist/css/bootstrap.css";
+import HomePage from "./components/Homepage.js";
 import Logo from "./components/Logo";
 import Footer from "./components/Footer";
 import About from "./components/About";
@@ -25,7 +26,8 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/faqs" element={<Faqs />} />
         </Routes>
-        <MyCarousel />
+        <HomePage />
+        {/* <MyCarousel /> */}
       </BrowserRouter>
       <Footer />
     </div>
